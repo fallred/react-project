@@ -29,6 +29,21 @@ export default defineConfig({
       path: '/table',
       component: './Table',
     },
+    {
+      name: 'test1',
+      path: '/test1',
+      component: './Test1',
+    },
+    {
+      name: 'suspense',
+      path: '/suspense',
+      component: './Suspense',
+    },
+    {
+      name: 'cartList',
+      path: '/cartList',
+      component: './CartList',
+    },
   ],
   npmClient: 'pnpm',
 });
